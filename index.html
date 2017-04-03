@@ -3,6 +3,9 @@
   <head>
     <title>Portfolio</title>
     <meta charset="utf-8">
+
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
     <!--Import Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
     <!--Import Google Icon Font-->
@@ -15,20 +18,25 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
   </head>
   <body>
+
+
     <main id="header">
-      <nav class="light-blue darken-2 ">
+      <nav class="navbar">
       <div class="nav nav-wrapper navbar-fixed-top">
         <div class="container-fluid">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="hide-on-med-and-down nav-justified">
             <li ><a class="navtext" href="#about">About</a></li>
-            <li ><a class="navtext" href="#experience">Experience</a></li>
             <li ><a class="navtext" href="#skills">Skills</a></li>
             <li><a class="navtext" href="#education">Education</a></li>
             <li ><a class="navtext" href="#portfolio">Portfolio</a></li>
@@ -36,7 +44,6 @@
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -45,14 +52,51 @@
         </div>
       </div>
       </nav>
+      <div id="intro" class="container s12 z-depth-4">
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <img  class="profile-pic z-depth-4" src="images/profile-pic.jpg">
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-8">
+        <h1 class="header-name ">Lanchana Shivananda</h1>
+        <h2 class="header-subtitle">Full-Stack Web Developer</h2>
+        </div>
+      </div>
+    </div>
     </main>
 
-    <main class="container-fluid ">
-      <section id="about" class="col s12">
-        <h1 class="header-name">Lanchana Shivananda</h1>
-        <h2 class="header-subtitle">Full-Stack Web Developer</h2>
+    <main class="container ">
+      <section id="about" class="col s12 z-depth-4">
+      <div class="row">
+        <div class="col-md-12">
+        <ul class="text-center list-inline">
+
+                <li><a href="https://github.com/lanchana" target="_blank"><i class="fa fa-github " aria-hidden="true"></i></i></a></li>
+                <li><a href="https://www.linkedin.com/in/lanchanas" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <p class="aboutme">I'm a Full Stack Web Developer based in Atlanta. I have the skill to develop creative, functional,
+          and usability oriented web applications by exposing the simplicity and the latest web standards as
+          the main principles.</p>
+          <div class="row">
+            <div class="col-md-12">
+                <a href="cv/.pdf" download=".pdf" class="waves-effect waves-light btn btn-custom"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Resume</a>
+                  <a href="#contact" class="waves-effect waves-light btn btn-custom">Contact Me</a>
+
+            </div>
+          </div>
+        </div>
+        </div>
       </section>
-      <section id="experience" class="col s12">Experience</div>
+      <section id="portfolio" class="col s12 center"><p class="portfolio-header text-uppercase">Portfolio</p></div>
+        <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="card hoverable z-depth-4">
+            <div class="card-image">
+              <img src="images/hiking-trails.png">
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://morning-tor-53182.herokuapp.com">Hiking Trails</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
         <div class="col s12">
             <div>Hinking Trails<span>Full Stack web app</span></div>
             <div>Hiking trails promote a healthy outdoor lifestyle. It helps users to find, customize, record and share outdoor activities.</div>
@@ -62,13 +106,12 @@
       </section>
       <div id="skills" class="col s12">Skills</div>
       <div id="education" class="col s12">Education</div>
-      <div id="portfolio" class="col s12">Portfolio</div>
       <div id="contact" class="col s12">Contact
-        <div id="map"></div>
+        <div id="map" class="z-depth-4"></div>
       </div>
     </main>
 
-    <footer class="page-footer footer-copyright light-blue darken-2">
+    <footer class="page-footer footer-copyright">
           <div class="container center">
          © 2017 Lanchana Shivananda
         </div>
