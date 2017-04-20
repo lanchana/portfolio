@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Lanchana - Portfolio</title>
     <meta charset="utf-8">
 
     <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
@@ -38,14 +38,14 @@
           <ul class="hide-on-med-and-down nav-justified">
             <li ><a class="navtext" href="#about">About</a></li>
             <li ><a class="navtext" href="#skills">Skills</a></li>
-            <li><a class="navtext" href="#education">Education</a></li>
+            <!-- <li><a class="navtext" href="#education">Education</a></li> -->
             <li ><a class="navtext" href="#portfolio">Portfolio</a></li>
             <li ><a class="navtext" href="#contact">Contact</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
+            <!-- <li><a href="#education">Education</a></li> -->
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -89,7 +89,7 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/simon.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="http://simon-game-lanchana.bitballoon.com">Simon</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="http://simon-game-lanchana.bitballoon.com" class="white-text portfolio-text">Simon</a></span>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/hiking-trails.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://morning-tor-53182.herokuapp.com">Hiking Trails</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://morning-tor-53182.herokuapp.com" class="white-text portfolio-text">Hiking Trails</a></span>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/frogger.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://lanchana.github.io/arcadegame-frogger/">Classic arcade game: Frogger</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://lanchana.github.io/arcadegame-frogger/" class="white-text portfolio-text">Classic arcade game: Frogger</a></span>
             </div>
           </div>
         </div>
@@ -113,20 +113,44 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/goldfish.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://shrouded-lowlands-82619.herokuapp.com/#!/">Goldfish</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://shrouded-lowlands-82619.herokuapp.com/#!/" class="white-text portfolio-text">Goldfish</a></span>
             </div>
           </div>
         </div>
       </div>
       </section>
-      <div id="skills" class="col s12">Skills</div>
-      <div id="education" class="col s12">Education</div>
-      <section id="contact" class="col s12 center"><p class="portfolio-header text-uppercase">Contact</p>
+      <section id="skills" class="col s12 center"><p class="portfolio-header text-uppercase">Skills</p>
+      <div class="col-xs-6">
+        <ul>
+          <li><h4>HTML5</h4></li>
+          <li><h4>CSS3</h4></li>
+          <li><h4>JavaScript</h4></li>
+          <li><h4>jQuery</h4></li>
+          <li><h4>AJAX</h4></li>
+          <li><h4>Bootstrap</h4></li>
+          <li><h4>Ruby</h4></li>
+        </ul>
+      </div>
+      <div class="col-xs-6">
+        <ul>
+          <li><h4>AngularJS</h4></li>
+          <li><h4>Node.js</h4></li>
+          <li><h4>Express.js</h4></li>
+          <li><h4>MongoDB</h4></li>
+          <li><h4>PostgreSQL</h4></li>
+          <li><h4>Materialize</h4></li>
+          <li><h4>Ruby on Rails</h4></li>
+        </ul>
+      </div>
+      </section>
+      <!-- <div id="skills" class="col s12">Skills</div> -->
+      <!-- <div id="education" class="col s12">Education</div> -->
+      <section id="contact" class="col s12 "><p class="portfolio-header text-uppercase center">Contact</p>
       <!-- <div id="contact" class="col s12">Contact -->
         <div class="col-md-12">
 <div class="col-md-7 row ">
 <div class="card col-md-12 email-box ">
- <form id="thisForm" class="">
+ <form id="thisForm" class="contact">
                 <div class="input-field">
                   <input  id="name" name="name" type="text" class="validate" required>
                   <label for="name">Name</label>
@@ -141,13 +165,13 @@
                 </div>
                 <div class="input-field">
                   <textarea id="textarea" name="message" class="materialize-textarea" required></textarea>
-                  <label for="textarea">Message</label>
+                  <label for="textarea" class="center">Message</label>
                 </div>
                 <div class="row">
                   <div class="col col-md-12 col-sm-12 col-xs-12 text-center">
-                    <button type="submit" value="Submit" class="btn waves-effect waves-light btn-primary custom-btn">
+                    <button type="submit" value="Submit" class=" waves-effect waves-light btn btn-send">
                       <!-- Button value here -->
-                      <i class="glyphicon glyphicon-send about-icon " aria-hidden="true"></i>Send</button>
+                      <i class="glyphicon glyphicon-send white-text" aria-hidden="true"></i>Send</button>
                     </div>
 
                     <!-- Message Sent and Error info -->
@@ -169,24 +193,24 @@
               <!-- <div class="col s12 m5"> -->
                  <div class="col-md-12 card-panel contact-info">
                  <ul>
-                   <li class="center white-text">
+                   <li class="center white-text contact-line-height">
                      <i class="material-icons col-md-12 contact-icon">call</i>
-                     <span class="col-md-12"> 707-813-9194
+                     <span class="col-md-12 "> 707-813-9194
                       </span>
                    </li>
-                   <li class="center white-text">
+                   <li class="center white-text contact-line-height">
                      <i class="material-icons  col-md-12 contact-icon">email</i>
                      <span class="col-md-12"> lanchanagupta@gmail.com
                       </span>
                    </li>
-                   <li class="center white-text">
+                   <li class="center white-text contact-line-height">
                       <i class="fa fa-github col-md-12 contact-icon" aria-hidden="true"></i>
                      <span class="col-md-12"> github.com/lanchana
                       </span>
                    </li>
-                   <li class="center white-text">
+                   <li class="center white-text contact-line-height">
                     <i class="material-icons  col-md-12 ">room</i>
-                     <span class=" col-md-12"> Atlanta, GA
+                     <span class="col-md-12"> Atlanta, GA
                       </span>
                    </li>
                  </ul>
