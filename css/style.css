@@ -218,7 +218,34 @@ footer{
   display: inline-block;
 }
 
+.skillset li h4{
+  border: 1px dashed #2B2B2B;
+  line-height: 50px;
+  background: #F6F6F6;
+  color: #2B2B2B;
+  border-radius: 25px;
+  /*float: none;*/
+  /*margin: 0 auto;*/
 
+}
+
+#skills div ul {
+  float: none;
+    margin: 0 auto;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5px; /* Place the button at the bottom of the page */
+    right: 0px; /* Place the button 30px from the right */
+    z-index: 100; /* Make sure it does not overlap */
+
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
 
 
 

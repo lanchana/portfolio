@@ -1,4 +1,7 @@
+
+
 $(document).ready(() => {
+
     $(".button-collapse").sideNav();
 
 $("#thisForm").submit(function(event){
@@ -18,10 +21,27 @@ $("#thisForm").submit(function(event){
       });
     });
 
-$('.target').pushpin({
-      top: 0,
-      bottom: 1000,
-      offset: 0
-    });
+
 });
+
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    // document.body.scrollTop = 0;
+    $('html, body').animate({
+        scrollTop: 0
+      }, 600);
+    document.documentElement.scrollTop = 0;
+}
 
