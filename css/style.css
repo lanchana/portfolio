@@ -249,4 +249,42 @@ footer{
 
 
 
+.modal-footer {
+  float: none;
+  text-align: center !important;
+}
+
+.project-desc {
+  text-indent: 40px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.model-image {
+  max-height: 250px;
+  max-width: 250px;
+  /*margin: 0 auto;*/
+  float: none !important;
+  margin-bottom: 0.8em;
+}
+
+.project-lang {
+  margin: 0.8em 0;
+}
+
+.modal {
+  padding: 15px;
+}
+
+.modal-action {
+  padding: 5px;
+  margin: 5px !important;
+}
+
+.modal-btn {
+  position: fixed;
+  bottom: 5px !important;
+  left: 0;
+}
+
 

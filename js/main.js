@@ -21,6 +21,9 @@ $("#thisForm").submit(function(event){
       });
     });
 
+$('.modal').modal();
+
+
 
 });
 

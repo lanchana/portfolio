@@ -5,11 +5,11 @@
     <meta charset="utf-8">
 
     <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
     <!--Import Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
     <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -70,7 +70,7 @@
 
                 <li><a href="https://github.com/lanchana" target="_blank"><i class="fa fa-github about-icon " aria-hidden="true"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/lanchanas" target="_blank"><i class="fa fa-linkedin-square about-icon" aria-hidden="true"></i></a></li>
-          <p class="aboutme">I’m a full stack web developer based in Atlanta. I love to build functional applications are usable for everyone. Having been trained in the most up to date technological trends, I can apply creative solutions to logical problems.</p>
+          <p class="aboutme">I’m a full stack web developer based in Atlanta. I love frequently reinventing myself while finding creative solutions to challenging problems. My goal is to keep learning and evolving as part of a team focused on creating beautiful, simplified experiences for everyone. </p>
           <div class="row">
             <div class="col-md-12">
                 <a href="resume/lanchana-resume-1.pdf.zip" download=".pdf" class="waves-effect waves-light btn btn-custom"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Resume</a>
@@ -87,7 +87,34 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/simon.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="http://simon-game-lanchana.bitballoon.com" class="white-text portfolio-text">Simon</a></span>
+              <!-- href="http://simon-game-lanchana.bitballoon.com" -->
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="#myModal" target="_" class="white-text portfolio-text">Simon</a>
+              <!-- <span class="card-title col s12 blue-grey darken-3 center"><a href="http://simon-game-lanchana.bitballoon.com" target="_" class="white-text portfolio-text">Simon</a> -->
+
+              <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+              </span>
             </div>
           </div>
         </div>
@@ -95,7 +122,7 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/hiking-trails.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://morning-tor-53182.herokuapp.com" class="white-text portfolio-text">Hiking Trails</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://morning-tor-53182.herokuapp.com" target="_" class="white-text portfolio-text">Hiking Trails</a></span>
             </div>
           </div>
         </div>
@@ -103,7 +130,7 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/frogger.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://lanchana.github.io/arcadegame-frogger/" class="white-text portfolio-text">Classic arcade game: Frogger</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://lanchana.github.io/arcadegame-frogger/" target="_" class="white-text portfolio-text">Classic arcade game: Frogger</a></span>
             </div>
           </div>
         </div>
@@ -111,7 +138,15 @@
           <div class="card hoverable z-depth-4">
             <div class="card-image">
               <img src="images/goldfish.png" class="portfolio-image">
-              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://shrouded-lowlands-82619.herokuapp.com/#!/" class="white-text portfolio-text">Goldfish</a></span>
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://shrouded-lowlands-82619.herokuapp.com/#!/" target="_" class="white-text portfolio-text">Goldfish</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card hoverable z-depth-4">
+            <div class="card-image">
+              <img src="images/boundless.png" class="portfolio-image">
+              <span class="card-title col s12 blue-grey darken-3 center"><a href="https://nameless-bastion-80877.herokuapp.com" target="_" class="white-text portfolio-text">Boundless</a></span>
             </div>
           </div>
         </div>
@@ -224,6 +259,7 @@
       </div>
     </main>
 
+
 <button id="myBtn" class="btn-floating waves-effect waves-light btn-floating btn-custom right hoverable" onclick="topFunction()">
         <i class="glyphicon glyphicon-menu-up"></i>
       </button>
@@ -235,6 +271,36 @@
          © 2017 Lanchana Shivananda
         </div>
     </footer>
+
+    <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12 center"> <img src="images/simon.png" class="col-md-12 col-sm-12 model-image"></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <p class="project-desc">Created Simon says game during the second week of class. Well.. it may look like regular Simon game, but I added some slight twists to it.<br/>
+                      <span class="project-lang"><b>Languages used:</b> HTML5, CSS3, JavaScript and jQuery.</span><br/>
+                      <span class="project-lang"><b>Hosted on:</b> Bitballoon.</span></p>
+
+
+
+                    </div>
+                    <div class=" col-md-12 col-sm-12 col-xs-12 center z-depth-4 modal-btn">
+                  <a href="http://simon-game-lanchana.bitballoon.com" target="_" class="modal-action waves-effect waves-green btn btn-custom">Demo</a>
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn btn-custom">Repo</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn btn-custom">Close</a>
+
+    </div>
+
+                  </div>
+
+                  <!-- <div class="modal-footer col-md-12 col-sm-12 col-xs-12 center">
+                  <a href="http://simon-game-lanchana.bitballoon.com" target="_" class="modal-action waves-effect waves-green btn btn-custom col-md-3">Demo</a>
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn btn-custom col-md-3">Repo</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn btn-custom col-md-3">Close</a>
+
+    </div> -->
+                </div>
+
 
   <!-- Google Map API -->
       <script type="text/javascript" src="js/map.js"></script>
