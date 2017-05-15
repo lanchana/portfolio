@@ -129,9 +129,37 @@ nav {
   /*color: yellow;*/
 }
 
+.modal_btn {
+  background-color: #2B2B2B;
+  margin-top: 1em;
+}
+
+.modal_header {
+  font-size: 2em;
+  text-shadow: 2px 2px 4px grey;
+}
+
+.modal-tech {
+  font-size: 1.5em;
+  margin-top: 0.7em;
+}
+
+.modal-desc {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  /*text-indent: 50px;*/
+}
+
+.modal-img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
 .btn-custom:hover,
 .btn:focus,
-.btn-send:hover {
+.btn-send:hover,
+.modal_btn:hover {
   background-color: #2B2B2B;
   color: #E9E581 !important;
 }
@@ -211,7 +239,6 @@ footer{
 
 .portfolio-image {
   min-height: 278px;
-
 }
 
 .card .card-image img {

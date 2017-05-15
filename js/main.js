@@ -22,6 +22,7 @@ $("#thisForm").submit(function(event){
     });
 
 $('.modal').modal();
+// $('#modal1').modal('open');
 
 
 
