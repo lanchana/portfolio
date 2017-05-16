@@ -30,12 +30,14 @@ nav {
   /*height: 500px;*/
 }
 
+
+
 #intro {
   width: 100%;
   min-height: 16em;
   text-align: center;
   background: #2B2B2B;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .contact-info {
@@ -91,6 +93,18 @@ nav {
   color: black;
   border:4px double #E9E581;
   /*box-shadow: 2px 2px 4px #E9E581;*/
+}
+
+.side-nav-pic {
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 130px;
+  /*z-index: 2;*/
+  margin-top: 2em;
+  color: black;
+  border:4px double #E9E581;
+
 }
 
 #about {
@@ -259,6 +273,12 @@ footer{
   /*float: none;*/
   /*margin: 0 auto;*/
 
+}
+
+.navbar-fixed-top {
+  z-index: 2000;
+  top: 0;
+  position: fixed;
 }
 
 #skills div ul {

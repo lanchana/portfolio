@@ -2,7 +2,7 @@
 
 $(document).ready(() => {
 
-    $(".button-collapse").sideNav();
+$(".button-collapse").sideNav({menuWidth: 280});
 
 $("#thisForm").submit(function(event){
       event.preventDefault();
