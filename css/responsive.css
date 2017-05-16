@@ -1,0 +1,46 @@
+@media screen and (max-width: 760px) {
+    .header-name {
+        margin-top: 0.2em !important;
+    }
+
+    .header-subtitle {
+        margin-bottom: 0.8em !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .aboutme {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .btn-custom {
+        margin: .5em;
+    }
+
+    .aboutme {
+        margin-top: 0;
+        /*font-size: 1.2em;*/
+    }
+
+    .about-icon {
+        padding: .5em;
+    }
+
+    .contact-info {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #about {
+        height: 38em;
+    }
+
+    .contact-info {
+        font-size: 11px;
+    }
+}
+
+
