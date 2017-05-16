@@ -44,6 +44,11 @@ nav {
   font-size: 18px;
 }
 
+.mobile-demo-progilepic {
+  background: #2B2B2B;
+  padding-bottom: 2em;
+}
+
 .email-box,
 .contact-info {
   min-height: 20em !important;
