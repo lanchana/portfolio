@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <link rel="stylesheet" href="aos-master/dist/aos.css" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,39 +39,42 @@
         <div class="container-fluid">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="hide-on-med-and-down nav-justified">
-            <li ><a class="navtext" href="#about">About</a></li>
-            <li ><a class="navtext" href="#skills">Skills</a></li>
+            <li ><a class="navtext" href="#intro">About</a></li>
             <!-- <li><a class="navtext" href="#education">Education</a></li> -->
             <li ><a class="navtext" href="#portfolio">Portfolio</a></li>
+            <li ><a class="navtext" href="#skills">Skills</a></li>
             <li ><a class="navtext" href="#contact">Contact</a></li>
           </ul>
           <ul class="side-nav text-center" id="mobile-demo">
             <li class="col-md-12 col-sm-12 col-xs-12 mobile-demo-progilepic"><img  class="side-nav-pic z-depth-4 responsive-img" src="images/profile-pic.jpg">
             <h5>Lanchana</h5></li>
             <li><hr></li>
-            <li><a href="#about" class="navtext">About</a></li>
-            <li><a href="#skills" class="navtext">Skills</a></li>
+            <li><a href="#intro" class="navtext">About</a></li>
+
             <!-- <li><a href="#education">Education</a></li> -->
             <li><a href="#portfolio" class="navtext">Portfolio</a></li>
+            <li><a href="#skills" class="navtext">Skills</a></li>
             <li><a href="#contact" class="navtext">Contact</a></li>
           </ul>
         </div>
       </div>
       </nav>
       <div id="intro" class="container s12 z-depth-4">
+
       <div class="col-md-4 col-sm-4 col-xs-12 animated flipInY">
         <img  class="profile-pic z-depth-4 responsive-img " src="images/profile-pic.jpg">
       </div>
       <div class="col-md-8 col-sm-8 col-xs-12 animated bounceInRight">
-        <h1 class="header-name  ">Lanchana Shivananda</h1>
-        <h2 class="header-subtitle ">Full-Stack Web Developer</h2>
+        <h1 class="header-name">Lanchana Shivananda</h1>
+        <h2 class="header-subtitle">Full-Stack Web Developer</h2>
         </div>
       </div>
     </div>
     </main>
 
-    <main class="container ">
-      <section id="about" class="col s12 z-depth-4">
+    <main class="container">
+
+      <section id="about" class="col s12 z-depth-4 animated slideInUp">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
         <ul class="text-center list-inline">
@@ -87,11 +91,12 @@
         </div>
         </div>
       </section>
-      <section id="portfolio" class="col s12 center"><p class="portfolio-header text-uppercase ">Portfolio</p>
+
+            <section id="portfolio" class="col-md-12 col-sm-12 col-xs-12 center"><p class="portfolio-header text-uppercase" data-aos="zoom-in">Portfolio</p>
         <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="card hoverable z-depth-4">
-            <div class="card-image">
+        <div class="col-md-4 col-sm-6 col-xs-12" >
+          <div class="card hoverable z-depth-4 " >
+            <div class="card-image " >
               <img src="images/simon.png" class="portfolio-image">
               <!-- href="http://simon-game-lanchana.bitballoon.com" -->
               <span class="card-title col s12 blue-grey darken-3 center"><a href="#modal1" target="_" class="white-text portfolio-text flip">Simon</a>
@@ -302,9 +307,9 @@ twists to it.</p></div>
 
 
 
-      <section id="skills" class="col-md-12 col-sm-12 col-xs-12 center"><p class="portfolio-header text-uppercase">Skills</p>
+      <section id="skills" class="col-md-12 col-sm-12 col-xs-12 center"><p class="portfolio-header text-uppercase" data-aos="zoom-in">Skills</p>
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <ul class="skillset col-md-6 col-sm-6 col-xs-8">
+        <ul class="skillset col-md-6 col-sm-6 col-xs-8" data-aos="fade-right">
           <li><h4>HTML5</h4></li>
           <li><h4>JavaScript</h4></li>
           <li><h4>AJAX</h4></li>
@@ -316,7 +321,7 @@ twists to it.</p></div>
         </ul>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <ul class="skillset col-md-6 col-sm-6 col-xs-8">
+        <ul class="skillset col-md-6 col-sm-6 col-xs-8" data-aos="fade-left">
           <li><h4>CSS3</h4></li>
           <li><h4>jQuery</h4></li>
           <li><h4>AngularJS</h4></li>
@@ -330,7 +335,7 @@ twists to it.</p></div>
       </section>
       <!-- <div id="skills" class="col s12">Skills</div> -->
       <!-- <div id="education" class="col s12">Education</div> -->
-      <section id="contact" class="col-md-12 col-sm-12 col-xs-12"><p class="portfolio-header text-uppercase center">Contact</p>
+      <section id="contact" class="col-md-12 col-sm-12 col-xs-12"><p class="portfolio-header text-uppercase center" data-aos="zoom-in">Contact</p>
       <!-- <div id="contact" class="col s12">Contact -->
         <div class="col-md-12 col-sm-12 col-xs-12">
 <div class="col-md-7 col-sm-7 col-xs-12 row ">
@@ -406,7 +411,7 @@ twists to it.</p></div>
     <!-- </div> -->
           </div>
         </div class = "col-md-12">
-        <div id="map" class="z-depth-4"></div>
+        <div id="map" class="z-depth-4" data-aos="zoom-in"></div>
       </div>
     </main>
 
@@ -438,8 +443,11 @@ twists to it.</p></div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+          <script src="aos-master/dist/aos.js"></script>
 
-
+<script>
+    AOS.init();
+  </script>
   <!-- Latest compiled and minified JavaScript -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 

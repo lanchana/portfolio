@@ -11,6 +11,7 @@ nav {
         height: 50px;
         background: #F6F6F6;
         border-bottom: 2px solid #DE1B1B !important;
+        /*margin-bottom: 5em;*/
 }
 
 .navtext{
@@ -276,7 +277,7 @@ footer{
 }
 
 .navbar-fixed-top {
-  z-index: 2000;
+  /*z-index: 2000;*/
   top: 0;
   position: fixed;
 }
