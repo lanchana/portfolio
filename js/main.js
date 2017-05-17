@@ -2,6 +2,10 @@
 
 $(document).ready(() => {
 
+   $('.filtr-container').filterizr({
+   //options object
+});
+
 $(".button-collapse").sideNav({menuWidth: 280});
 
 $("#thisForm").submit(function(event){

@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <!-- Animate on scrool library -->
-    <link rel="stylesheet" href="aos-master/dist/aos.css" />
+    <link rel="stylesheet" href="css/aos.css" />
 
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 
@@ -94,6 +94,7 @@
       <!-- ******************************************************************************* -->
       <!-- About Me -->
       <!-- ******************************************************************************* -->
+
       <section id="about" class="col s12 z-depth-4 animated slideInUp">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -124,74 +125,87 @@
       <!-- ******************************************************************************* -->
       <!-- Portfolio -->
       <!-- ******************************************************************************* -->
-      <section id="portfolio" class="col-md-12 col-sm-12 col-xs-12 center"><p class="portfolio-header text-uppercase" data-aos="zoom-in">Portfolio</p>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12" >
-            <div class="card hoverable z-depth-4 " >
-              <div class="card-image " >
-                <img src="images/simon.png" class="portfolio-image">
-                <span class="card-title col s12 blue-grey darken-3 center">
-                  <a href="#modal1" target="_" class="white-text portfolio-text flip">Simon</a>
-                </span>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card hoverable z-depth-4">
-              <div class="card-image">
-                <img src="images/hiking-trails.png" class="portfolio-image">
-                <span class="card-title col s12 blue-grey darken-3 center">
-                  <a href="#modal2" target="_" class="white-text portfolio-text">Hiking Trails</a>
-                </span>
-              </div>
-            </div>
-          </div>
+      <section id="portfolio" class="col-md-12 col-sm-12 col-xs-12 center">
+        <p class="portfolio-header text-uppercase" data-aos="zoom-in">Portfolio</p>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card hoverable z-depth-4">
-              <div class="card-image">
-                <img src="images/frogger.png" class="portfolio-image">
+        <ul class="text-center portfolio-filter aos-init aos-animate " data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+          <li class="navtext" data-filter="all"><a>All</a></li>
+          <li class="navtext" data-filter="1"><a>HTML5/CSS3/JS</a></li>
+          <li class="navtext" data-filter="2"><a>MEN</a></li>
+          <li class="navtext" data-filter="3"><a>Ruby on Rails</a></li>
+          <li class="navtext" data-filter="4"><a>AngularJS</a></li>
+        </ul>
+
+        <div class="filtr-container center-block" style="padding: 0px; position: relative; height: 646px;">
+
+          <div class="row filtr-container">
+            <div class="col-md-4 col-sm-6 col-xs-12 filtr-item"  data-category="1" >
+              <div class="card hoverable z-depth-4 " >
+                <div class="card-image " >
+                  <img src="images/simon.png" class="portfolio-image">
                   <span class="card-title col s12 blue-grey darken-3 center">
-                    <a href="#modal3" target="_" class="white-text portfolio-text">Classic arcade game: Frogger</a>
+                    <a href="#modal1" target="_" class="white-text portfolio-text flip">Simon</a>
                   </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1, 2" >
+              <div class="card hoverable z-depth-4">
+                <div class="card-image">
+                  <img src="images/hiking-trails.png" class="portfolio-image">
+                  <span class="card-title col s12 blue-grey darken-3 center">
+                    <a href="#modal2" target="_" class="white-text portfolio-text">Hiking Trails</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1" >
+              <div class="card hoverable z-depth-4">
+                <div class="card-image">
+                  <img src="images/frogger.png" class="portfolio-image">
+                    <span class="card-title col s12 blue-grey darken-3 center">
+                      <a href="#modal3" target="_" class="white-text portfolio-text">Classic arcade game: Frogger</a>
+                    </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 left filtr-item" data-category="1, 2, 4" >
+              <div class="card hoverable z-depth-4">
+                <div class="card-image">
+                  <img src="images/goldfish.png" class="portfolio-image">
+                  <span class="card-title col s12 blue-grey darken-3 center">
+                    <a href="#modal4" target="_" class="white-text portfolio-text">Goldfish</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1, 3" >
+              <div class="card hoverable z-depth-4">
+                <div class="card-image">
+                  <img src="images/boundless.png" class="portfolio-image">
+                  <span class="card-title col s12 blue-grey darken-3 center">
+                    <a href="#modal5" target="_" class="white-text portfolio-text">Boundless</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1, 3, 4" >
+              <div class="card hoverable z-depth-4">
+                <div class="card-image">
+                  <img src="images/giig.png" class="portfolio-image">
+                  <span class="card-title col s12 blue-grey darken-3 center">
+                    <a href="#modal6" target="_" class="white-text portfolio-text">GiiG</a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12 left">
-            <div class="card hoverable z-depth-4">
-              <div class="card-image">
-                <img src="images/goldfish.png" class="portfolio-image">
-                <span class="card-title col s12 blue-grey darken-3 center">
-                  <a href="#modal4" target="_" class="white-text portfolio-text">Goldfish</a>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card hoverable z-depth-4">
-              <div class="card-image">
-                <img src="images/boundless.png" class="portfolio-image">
-                <span class="card-title col s12 blue-grey darken-3 center">
-                  <a href="#modal5" target="_" class="white-text portfolio-text">Boundless</a>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card hoverable z-depth-4">
-              <div class="card-image">
-                <img src="images/giig.png" class="portfolio-image">
-                <span class="card-title col s12 blue-grey darken-3 center">
-                  <a href="#modal6" target="_" class="white-text portfolio-text">GiiG</a>
-                </span>
-              </div>
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -553,11 +567,14 @@
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Import filterizer for data filter -->
+    <script src="js/jquery.filterizr.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
     <!-- Import animate on slide -->
-    <script src="aos-master/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
 
     <!-- initiate animate on slide -->
     <script>

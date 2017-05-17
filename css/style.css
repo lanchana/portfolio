@@ -282,6 +282,26 @@ footer{
   position: fixed;
 }
 
+.portfolio-filter li {
+  display: inline;
+  padding: 20px;
+   color: #2B2B2B !important;
+}
+
+.portfolio-filter li a {
+   color: #2B2B2B !important;
+}
+
+.portfolio-filter li:hover {
+  border-bottom: 2px solid #DE1B1B !important;
+
+}
+
+.portfolio-filter li a:hover {
+  text-decoration: none !important;
+}
+
+
 #skills div ul {
   float: none;
     margin: 0 auto;
