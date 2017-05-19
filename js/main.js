@@ -2,9 +2,7 @@
 
 $(document).ready(() => {
 
-   $('.filtr-container').filterizr({
-   //options object
-});
+   $('.filtr-container').filterizr({});
 
 $(".button-collapse").sideNav({menuWidth: 280});
 
