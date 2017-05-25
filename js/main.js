@@ -2,26 +2,29 @@
 
 $(document).ready(() => {
 
-   $('.filtr-container').filterizr({});
+  $('.filtr-container').filterizr({});
 
-$(".button-collapse").sideNav({menuWidth: 280});
+  $(".button-collapse").sideNav({menuWidth: 280});
 
-$("#thisForm").submit(function(event){
-      event.preventDefault();
+  $("#thisForm").submit(function(event){
+    event.preventDefault();
       $.ajax({
-        url: "https://www.enformed.io/ricbofc4",
-        method: "post",
-        dataType: "json",
-        accepts: "application/json",
-        data: $("#thisForm").serialize(),
-        success: function(){
-          console.log("Your form was successfully received!");
-        },
-        error: function(){
-          console.log("Failure. Try again.");
-        }
+          url: "https://www.enformed.io/ricbofc4",
+          method: "post",
+          dataType: "json",
+          accepts: "application/json",
+          data: $("#thisForm").serialize(),
+          success: function(){
+            console.log("Your form was successfully received!");
+            $("#thisForm").trigger('reset');
+          },
+          error: function(){
+            $("#thisForm").trigger('reset');
+            console.log("Failure. Try again.");
+
+          }
+        });
       });
-    });
 
 $('.modal').modal();
 // $('#modal1').modal('open');
