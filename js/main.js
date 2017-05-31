@@ -35,9 +35,9 @@ window.onscroll = function() {scrollFunction()};
 // Smooth scroll
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    document.getElementById("myBtn").style.display = "block";
+    document.getElementById("top-arrow-btn").style.display = "block";
   } else {
-    document.getElementById("myBtn").style.display = "none";
+    document.getElementById("top-arrow-btn").style.display = "none";
   }
 }
 
