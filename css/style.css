@@ -37,6 +37,49 @@ main {
 }
 
 /*********************************************/
+/* Page pre loader */
+/*********************************************/
+
+#page-pre-loader {
+  background-color: #2B2B2B;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 8000;
+}
+
+#page-pre-loader .text-div {
+  width: 100%;
+  position: absolute;
+  top: 350px;
+  color: white;
+}
+
+#page-pre-loader .text-div p, #page-pre-loader .text-div h6 {
+  margin: 0;
+  display: block;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 2px grey;
+}
+
+#page-pre-loader .text-div h6 {
+  margin-top: 5px;
+  font-size: 1.4em;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  border:4px double #E9E581;
+  margin: 260px auto;
+}
+
+/*********************************************/
 /* Navigation bar */
 /*********************************************/
 
@@ -349,6 +392,4 @@ footer{
   max-width: 200px;
   max-height: 200px;
 }
-
-
 

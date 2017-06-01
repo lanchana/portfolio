@@ -1,3 +1,11 @@
+// Page loader
+$(window).load(function(){
+        $('#page-pre-loader').fadeOut(500);
+        $('#intro-pic').addClass('animated flipInY');
+        $('#intro-name').addClass('animated bounceInRight');
+        $('#about').addClass('animated slideInUp');
+});
+
 $(document).ready(() => {
 
   // This initializes filterize
@@ -50,4 +58,6 @@ function topFunction() {
 
   document.documentElement.scrollTop = 0;
 }
+
+
 
