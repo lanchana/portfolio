@@ -51,7 +51,7 @@ main {
 #page-pre-loader .text-div {
   width: 100%;
   position: absolute;
-  top: 350px;
+  top: 270px;
   color: white;
 }
 
@@ -76,7 +76,7 @@ main {
   border-radius: 50%;
   background: white;
   border:4px double #E9E581;
-  margin: 260px auto;
+  margin: 200px auto;
 }
 
 /*********************************************/
