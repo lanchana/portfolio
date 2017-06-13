@@ -1,0 +1,10 @@
+/* Media queries for responsive design*/
+@media screen and (max-width: 760px) {
+    .header-name {
+        margin-top: 0.2em !important;
+    }
+
+    .header-subtitle {
+        margin-bottom: 0.8em !important;
+    }
+}

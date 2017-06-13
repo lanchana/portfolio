@@ -1,0 +1,7 @@
+/* Media queries for responsive design*/
+
+@media screen and (max-width: 570px) {
+    .aboutme {
+        font-size: 1.3em;
+    }
+}

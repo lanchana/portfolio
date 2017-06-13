@@ -1,0 +1,19 @@
+/* Media queries for responsive design*/
+
+@media screen and (max-width: 425px) {
+    .btn-custom {
+        margin: .5em;
+    }
+
+    .aboutme {
+        margin-top: 0;
+    }
+
+    .about-icon {
+        padding: .5em;
+    }
+
+    .contact-info {
+        font-size: 14px;
+    }
+}
