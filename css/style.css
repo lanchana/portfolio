@@ -216,13 +216,30 @@ nav {
 
 .card .card-image img {
   display: inline-block;
+  overflow: hidden;
+  transition: transform 1s;
+}
+
+.card .card-image img:hover {
+  transform: scale(1.2);
+}
+
+.project-scale {
+  transition: transform 1s;
+  overflow: hidden;
+}
+
+.project-scale:hover {
+  box-shadow: 0px 0px 20px grey;
+  z-index: 2;
+  transform: scale(1.06);
 }
 
 /* Portfolio filterrize style */
 .portfolio-filter li {
   display: inline;
   padding: 20px;
-   color: #2B2B2B !important;
+  color: #2B2B2B !important;
 }
 
 .portfolio-filter li a {
@@ -240,6 +257,7 @@ nav {
 .portfolio-text:hover {
   color: #E9E581 !important;
   text-decoration: none;
+  transform: scale3d(1.5);
 }
 
 
