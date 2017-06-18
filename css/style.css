@@ -306,6 +306,10 @@ nav {
   font-size: 2em;
 }
 
+.contact-icon:hover {
+  color: #E9E581 !important;
+}
+
 .btn-send {
   background-color: #2B2B2B;
 }
