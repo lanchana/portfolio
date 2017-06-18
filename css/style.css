@@ -250,6 +250,10 @@ nav {
   border-bottom: 2px solid #DE1B1B !important;
 }
 
+.border-bottom-red {
+  border-bottom: 2px solid #DE1B1B !important;
+}
+
 .portfolio-filter li a:hover {
   text-decoration: none !important;
 }

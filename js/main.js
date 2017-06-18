@@ -34,6 +34,13 @@ $(document).ready(() => {
     });
   });
 
+  // To differenciate the selected language specific nav item to filter the projects
+  $('li.lang-specific').click(function(e) {
+        e.preventDefault();
+        $('li').removeClass('border-bottom-red');
+        $(this).addClass('border-bottom-red');
+    });
+
   // Modal initialization
   $('.modal').modal();
 });
@@ -58,6 +65,7 @@ function topFunction() {
 
   document.documentElement.scrollTop = 0;
 }
+
 
 
 
