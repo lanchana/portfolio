@@ -8,4 +8,8 @@
     .contact-info {
         font-size: 11px;
     }
+
+    #intro-pic {
+        display: none;
+    }
 }
