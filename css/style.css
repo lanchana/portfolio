@@ -248,6 +248,7 @@ nav {
 
 .portfolio-filter li:hover {
   border-bottom: 2px solid #DE1B1B !important;
+  cursor: pointer;
 }
 
 .border-bottom-red {
