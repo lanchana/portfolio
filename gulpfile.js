@@ -1,7 +1,8 @@
 var gulp = require("gulp"),
     plumber = require("gulp-plumber"),
     uglyfly = require("gulp-uglyfly"),
-    rename = require("gulp-rename");
+    rename = require("gulp-rename"),
+    cssmin = require("gulp-uglifycss");
 
 gulp.task("scripts", () => {
     gulp.src("js/*.js")
@@ -11,8 +12,17 @@ gulp.task("scripts", () => {
         .pipe(gulp.dest("js/js-min/"));
 });
 
-gulp.task("watch", () => {
-    gulp.watch("js/*.js", ["scripts"]);
+gulp.task("styles", () => {
+    gulp.src("css/*.css")
+        .pipe(plumber())
+        .pipe(cssmin())
+        .pipe(rename({ suffix: '.min'}))
+        .pipe(gulp.dest("css/css-min/"));
 });
 
-gulp.task("default", ["scripts", "watch"]);
+gulp.task("watch", () => {
+    gulp.watch("js/*.js", ["scripts"]);
+    gulp.watch("css/*.css", ["styles"]);
+});
+
+gulp.task("default", ["scripts", "watch", "styles"]);
