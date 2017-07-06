@@ -18,6 +18,7 @@
   "homepage": "https://github.com/lanchana/portfolio#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-minify-html": "^1.0.6",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglifycss": "^1.0.8",
