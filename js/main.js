@@ -6,7 +6,7 @@ $(window).load(function(){
         $('#about').addClass('animated slideInUp');
 });
 
-$(document).ready(() => {
+$(document).ready(function(){
 
   // This initializes filterize
   $('.filtr-container').filterizr({});
