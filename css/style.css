@@ -368,7 +368,7 @@ footer{
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 1px; /* Place the button at the bottom of the page */
-  right: 0px; /* Place the button 30px from the right */
+  left: 0px; /* Place the button 30px from the right */
   z-index: 100; /* Make sure it does not overlap */
 }
 
@@ -441,10 +441,5 @@ footer{
 .modal-img {
   max-width: 200px;
   max-height: 200px;
-}
-
-.crisp-client .crisp-1 .crisp-39 .crisp-40, .crisp-client .crisp-1 .crisp-39 .crisp-41 {
-    position: fixed!important;
-    right: 100 !important;
 }
 
